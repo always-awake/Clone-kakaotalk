@@ -5,6 +5,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .top-header .header__top,
@@ -25,6 +26,11 @@
 .top-header .header__column {
     width: 33%;
 }
+
+.top-header a {
+    color: white;
+}
+
 .header__bottom .header__column:first-child {
     color:rgba(250, 250, 250, 0.5);
 }

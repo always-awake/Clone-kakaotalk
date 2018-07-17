@@ -25,6 +25,9 @@
 .top-header .header__column {
     width: 33%;
 }
+.header__bottom .header__column:first-child {
+    color:rgba(250, 250, 250, 0.5);
+}
 
 .top-header .header__column:last-child {
     text-align: right;

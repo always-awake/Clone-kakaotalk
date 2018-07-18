@@ -6,6 +6,11 @@
 .chats__list  .chats__chat {
     padding: 15px;
     border-bottom: 1px solid #ebebeb;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.chats__list  .chats__chat:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .chats__list .chats__chat:last-child {

@@ -11,6 +11,11 @@
     display: flex;
     align-items: center;
     font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.friends__section-rows .friends__section-row:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .friends__section-row img {
@@ -23,10 +28,10 @@
 
 @keyframes RotateImg {
     from {
-        transform: rotateY(0deg) translateY(10px);
+        transform: translateY(10px);
     }
     to {
-        transform: rotateY(360deg) translateY(0);
+        transform: translateY(0);
     }
 }
 

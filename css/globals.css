@@ -3,3 +3,17 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+main {
+    animation: 0.5s BodyPopIn ease-in-out;
+}
+
+@keyframes BodyPopIn {
+    from {
+        opacity: 0;
+    }
+
+    t0 {
+        opacity: 1;
+    }
+}

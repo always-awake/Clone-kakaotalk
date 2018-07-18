@@ -18,6 +18,16 @@
     height: 40px;
     border-radius: 50%; 
     margin-right: 15px;
+    animation: 1s RotateImg ease-in-out;
+}
+
+@keyframes RotateImg {
+    from {
+        transform: rotateY(0deg) translateY(10px);
+    }
+    to {
+        transform: rotateY(360deg) translateY(0);
+    }
 }
 
 .friends__section-row a {
